@@ -1,0 +1,11 @@
+.header {
+  -webkit-box-shadow: 0 0 2px #aaaa;
+          box-shadow: 0 0 2px #aaaa;
+  padding: 10px;
+}
+
+.header * {
+  max-width: 1000px;
+  margin: auto;
+}
+/*# sourceMappingURL=Header.module.css.map */

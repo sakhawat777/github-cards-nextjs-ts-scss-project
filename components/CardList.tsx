@@ -1,8 +1,10 @@
 import React from 'react';
-import { profileType } from '../Utils';
+import { profileType } from '../pages/Utils';
 import Card from './Card';
+import { useProfileContext } from '../pages';
 
-const CardList = ({profiles}: {profiles: profileType[]}) => {
+const CardList = () => {
+    const [profiles, setProfiles] = useProfileContext ();
     return (
         <div>
            {

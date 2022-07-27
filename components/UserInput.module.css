@@ -1,0 +1,37 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 0 5px #5555;
+          box-shadow: 0 0 5px #5555;
+}
+
+.container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2em;
+}
+
+.container form input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0.2em 0.5em;
+  border: none;
+  outline: none;
+}
+
+.container form button {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.container .err {
+  color: red;
+}
+/*# sourceMappingURL=UserInput.module.css.map */

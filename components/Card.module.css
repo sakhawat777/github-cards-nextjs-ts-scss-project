@@ -1,0 +1,19 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0 0 2px 5px #5555;
+          box-shadow: 0 0 2px 5px #5555;
+}
+
+.container > div {
+  padding: 10px;
+}
+
+.container img {
+  max-width: 200px;
+}
+/*# sourceMappingURL=Card.module.css.map */
