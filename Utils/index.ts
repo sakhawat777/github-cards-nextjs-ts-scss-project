@@ -1,5 +1,4 @@
 export type profileType = {
-    id: number
     name: string,
     login: string,
     avatar_url: string,
@@ -11,7 +10,6 @@ export type profileType = {
 export const defaultProfiles: profileType[] = [
     {
         "login": "defunkt",
-        "id": 2,
         "avatar_url": "https://avatars.githubusercontent.com/u/2?v=4",
         "name": "Chris Wanstrath",
         "blog": "http://chriswanstrath.com/",

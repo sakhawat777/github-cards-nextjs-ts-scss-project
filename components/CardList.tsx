@@ -1,10 +1,13 @@
 import React from 'react';
 import { profileType } from '../Utils';
+import Card from './Card';
 
 const CardList = ({profiles}: {profiles: profileType[]}) => {
     return (
         <div>
-            <h1>CardList</h1>
+           {
+            profiles.map(profile => <Card key={profile.login} profile={profile} />)
+           }
         </div>
     );
 };
