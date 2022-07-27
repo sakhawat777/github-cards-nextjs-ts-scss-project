@@ -1,10 +1,10 @@
 import React from 'react';
-
+import styles from './Header.module.scss';
 const Header = () => {
     return (
-        <div>
-           <h1>Header</h1> 
-        </div>
+        <header className={styles.header}>
+            <h1>GitHub Cards App</h1>
+        </header>
     );
 };
 

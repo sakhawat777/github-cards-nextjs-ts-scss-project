@@ -1,9 +1,12 @@
 import React from 'react';
-
-const UserInput = () => {
+import { profileType } from '../pages/Utils';
+const UserInput = ({addCard} : {addCard(newCard: profileType): void}) => {
     return (
-        <div>
-            <h1>UserInput</h1>
+        <div className='styles.container'>
+           <form onSubmit={e => {e.preventDefault();}} action="">
+            <input type="text" />
+            <button>Add Card</button>
+           </form>
         </div>
     );
 };
