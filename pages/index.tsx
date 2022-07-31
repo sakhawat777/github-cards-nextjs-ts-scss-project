@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { useEffect, useState, useContext,createContext } from 'react'
 import CardList from '../components/CardList'
-import Header from '../components/Header'
 import UserInput from '../components/UserInput'
 import styles from '../styles/Home.module.scss'
 import { defaultProfiles, profileType } from './Utils'
@@ -31,8 +30,7 @@ const Home: NextPage = () => {
          <meta httpEquiv="X-UA-Compatible" content="IE=7" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <div className={styles.container}>
-      <Header/>  
+    <div className={styles.container}>  
       <UserInput/>
       <CardList/>
     </div>

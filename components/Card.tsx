@@ -1,6 +1,7 @@
 import React from 'react';
 import { profileType } from '../pages/Utils';
 import  styles from './Card.module.scss';
+
 type CardPropsType = {
     profile: profileType
 }
