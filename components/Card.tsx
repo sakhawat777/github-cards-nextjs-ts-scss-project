@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { profileType } from '../pages/Utils';
 import  styles from './Card.module.scss';
@@ -8,6 +9,7 @@ type CardPropsType = {
 
 const Card = ({profile}: CardPropsType) => {
     return (
+        <Link href={profile.login}>
         <div className={styles.container}>
             <div>
                 <img src={profile.avatar_url} alt="" />
@@ -28,6 +30,7 @@ const Card = ({profile}: CardPropsType) => {
             </div>
             
         </div>
+        </Link>
     );
 };
 
