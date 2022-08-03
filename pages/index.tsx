@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <meta name="keywords" content="Github cards" />
          <meta httpEquiv="X-UA-Compatible" content="IE=7" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/g_logo.png" />
       </Head>
     <div className={styles.container}>  
       <UserInput/>
